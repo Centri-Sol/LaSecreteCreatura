@@ -1,0 +1,11 @@
+﻿{
+	"id": "bry.secret-creaturas",
+	"name": "Secret Creaturas",
+	"version": "your'e Motherer",
+	"authors": "Bry",
+	"description": "Adds a new Secret Creatura",
+	"requirements": [ "fisobs" ],
+	"requirements_names": [ "Fisobs" ],
+	"priorities": [ "moreslugcats", "theincandescent" ],
+	"tags": [ "Creatures" ]
+}
