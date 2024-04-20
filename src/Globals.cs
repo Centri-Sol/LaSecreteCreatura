@@ -14,3 +14,6 @@ global using BepInEx.Logging;
 global using Fisobs.Core;
 global using Fisobs.Creatures;
 global using Fisobs.Sandbox;
+
+global using Hailstorm;
+global using DrainMites;

@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\secretcreaturaenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\secretcreaturaenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\critobs\\secretcreaturacritob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\critobs\\secretcreaturacritob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\secretcreatura\\aistuff\\itemthreattracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\secretcreatura\\aistuff\\itemthreattracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\secretcreatura\\aistuff\\itemfoodtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\secretcreatura\\aistuff\\itemfoodtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\particles\\secretcreaturashard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\particles\\secretcreaturashard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\critobs\\secretercreaturacritob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\critobs\\secretercreaturacritob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\secretcreatura\\aistuff\\itrackitemrelationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\secretcreatura\\aistuff\\itrackitemrelationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\secretcreatura\\aistuff\\secretcreaturatrackcreaturestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\secretcreatura\\aistuff\\secretcreaturatrackcreaturestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\secretcreatura\\creatureclasses\\secretcreatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\secretcreatura\\creatureclasses\\secretcreatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\secretcreatura\\creatureclasses\\secretercreatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\secretcreatura\\creatureclasses\\secretercreatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\secretcreatura\\creatureclasses\\secretestcreatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\secretcreatura\\creatureclasses\\secretestcreatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\secretcreatura\\secretcreaturaai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\secretcreatura\\secretcreaturaai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\secretcreatura\\secretcreaturagraphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\secretcreatura\\secretcreaturagraphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\secretcreatura\\secretcreaturastate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\secretcreatura\\secretcreaturastate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SecretCreaturaShard.cs",
+              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\Particles\\SecretCreaturaShard.cs",
+              "RelativeDocumentMoniker": "src\\Particles\\SecretCreaturaShard.cs",
+              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\Particles\\SecretCreaturaShard.cs",
+              "RelativeToolTip": "src\\Particles\\SecretCreaturaShard.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:44:08.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemFoodTracker.cs",
+              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\AIStuff\\ItemFoodTracker.cs",
+              "RelativeDocumentMoniker": "src\\SecretCreatura\\AIStuff\\ItemFoodTracker.cs",
+              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\AIStuff\\ItemFoodTracker.cs",
+              "RelativeToolTip": "src\\SecretCreatura\\AIStuff\\ItemFoodTracker.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvwgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:44:01.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemThreatTracker.cs",
+              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\AIStuff\\ItemThreatTracker.cs",
+              "RelativeDocumentMoniker": "src\\SecretCreatura\\AIStuff\\ItemThreatTracker.cs",
+              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\AIStuff\\ItemThreatTracker.cs",
+              "RelativeToolTip": "src\\SecretCreatura\\AIStuff\\ItemThreatTracker.cs",
+              "ViewState": "AQIAANcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:43:56.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SecretCreaturaCritob.cs",
+              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\Critobs\\SecretCreaturaCritob.cs",
+              "RelativeDocumentMoniker": "src\\Critobs\\SecretCreaturaCritob.cs",
+              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\Critobs\\SecretCreaturaCritob.cs",
+              "RelativeToolTip": "src\\Critobs\\SecretCreaturaCritob.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:25:16.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SecretCreaturaEnums.cs",
+              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreaturaEnums.cs",
+              "RelativeDocumentMoniker": "src\\SecretCreaturaEnums.cs",
+              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreaturaEnums.cs",
+              "RelativeToolTip": "src\\SecretCreaturaEnums.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:21:19.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Plugin.cs",
+              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\Plugin.cs",
+              "RelativeDocumentMoniker": "src\\Plugin.cs",
+              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\Plugin.cs",
+              "RelativeToolTip": "src\\Plugin.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAkwDYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:29:44.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SecreterCreaturaCritob.cs",
+              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\Critobs\\SecreterCreaturaCritob.cs",
+              "RelativeDocumentMoniker": "src\\Critobs\\SecreterCreaturaCritob.cs",
+              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\Critobs\\SecreterCreaturaCritob.cs",
+              "RelativeToolTip": "src\\Critobs\\SecreterCreaturaCritob.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:44:12.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITrackItemRelationships.cs",
+              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\AIStuff\\ITrackItemRelationships.cs",
+              "RelativeDocumentMoniker": "src\\SecretCreatura\\AIStuff\\ITrackItemRelationships.cs",
+              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\AIStuff\\ITrackItemRelationships.cs",
+              "RelativeToolTip": "src\\SecretCreatura\\AIStuff\\ITrackItemRelationships.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:43:52.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SecretCreaturaTrackCreatureState.cs",
+              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\AIStuff\\SecretCreaturaTrackCreatureState.cs",
+              "RelativeDocumentMoniker": "src\\SecretCreatura\\AIStuff\\SecretCreaturaTrackCreatureState.cs",
+              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\AIStuff\\SecretCreaturaTrackCreatureState.cs",
+              "RelativeToolTip": "src\\SecretCreatura\\AIStuff\\SecretCreaturaTrackCreatureState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:43:47.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SecretCreatura.cs",
+              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\CreatureClasses\\SecretCreatura.cs",
+              "RelativeDocumentMoniker": "src\\SecretCreatura\\CreatureClasses\\SecretCreatura.cs",
+              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\CreatureClasses\\SecretCreatura.cs",
+              "RelativeToolTip": "src\\SecretCreatura\\CreatureClasses\\SecretCreatura.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:43:41.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SecreterCreatura.cs",
+              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\CreatureClasses\\SecreterCreatura.cs",
+              "RelativeDocumentMoniker": "src\\SecretCreatura\\CreatureClasses\\SecreterCreatura.cs",
+              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\CreatureClasses\\SecreterCreatura.cs",
+              "RelativeToolTip": "src\\SecretCreatura\\CreatureClasses\\SecreterCreatura.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:43:38.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SecretestCreatura.cs",
+              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\CreatureClasses\\SecretestCreatura.cs",
+              "RelativeDocumentMoniker": "src\\SecretCreatura\\CreatureClasses\\SecretestCreatura.cs",
+              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\CreatureClasses\\SecretestCreatura.cs",
+              "RelativeToolTip": "src\\SecretCreatura\\CreatureClasses\\SecretestCreatura.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:43:31.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SecretCreaturaAI.cs",
+              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\SecretCreaturaAI.cs",
+              "RelativeDocumentMoniker": "src\\SecretCreatura\\SecretCreaturaAI.cs",
+              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\SecretCreaturaAI.cs",
+              "RelativeToolTip": "src\\SecretCreatura\\SecretCreaturaAI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:43:26.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SecretCreaturaGraphics.cs",
+              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\SecretCreaturaGraphics.cs",
+              "RelativeDocumentMoniker": "src\\SecretCreatura\\SecretCreaturaGraphics.cs",
+              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\SecretCreaturaGraphics.cs",
+              "RelativeToolTip": "src\\SecretCreatura\\SecretCreaturaGraphics.cs",
+              "ViewState": "AQIAAFECAAAAAAAAAAAAABIAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:43:18.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SecretCreaturaState.cs",
+              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\SecretCreaturaState.cs",
+              "RelativeDocumentMoniker": "src\\SecretCreatura\\SecretCreaturaState.cs",
+              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\SecretCreaturaState.cs",
+              "RelativeToolTip": "src\\SecretCreatura\\SecretCreaturaState.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwBAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:39:06.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Globals.cs",
+              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\Globals.cs",
+              "RelativeDocumentMoniker": "src\\Globals.cs",
+              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\Globals.cs",
+              "RelativeToolTip": "src\\Globals.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:32:00.927Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

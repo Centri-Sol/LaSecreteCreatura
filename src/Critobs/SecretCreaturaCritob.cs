@@ -202,82 +202,64 @@ public class SecretCreaturaCritob : Critob
 
         if (ModManager.MSC)
         {
-            MSCRelationships(SecretCreatura);
-        }
+            // Eats - Grabs the target and eats them right them and there
+            SecretCreatura.Eats(MoreSlugcatsEnums.CreatureTemplateType.JungleLeech, 0.15f);
 
-        ModdedRelationships(SecretCreatura);
+            // UncomfortableAround (Uncomfortable) - Becomes a bit more antsy around the creature, moving around more
+            SecretCreatura.UncomfortableAround(MoreSlugcatsEnums.CreatureTemplateType.StowawayBug, 0.75f);
 
-    }
-    public void MSCRelationships(Relationships SecretCreatura)
-    {
-        // Eats - Grabs the target and eats them right them and there
-        SecretCreatura.Eats(MoreSlugcatsEnums.CreatureTemplateType.JungleLeech, 0.15f);
+            // IntimidatedBy (StayOutOfWay) - Runs away if the creature gets too close
+            SecretCreatura.IntimidatedBy(MoreSlugcatsEnums.CreatureTemplateType.Inspector, 0.8f);
+            SecretCreatura.IntimidatedBy(MoreSlugcatsEnums.CreatureTemplateType.BigJelly, 0.7f);
+            SecretCreatura.IntimidatedBy(MoreSlugcatsEnums.CreatureTemplateType.FireBug, 0.5f);
 
-        // UncomfortableAround (Uncomfortable) - Becomes a bit more antsy around the creature, moving around more
-        SecretCreatura.UncomfortableAround(MoreSlugcatsEnums.CreatureTemplateType.StowawayBug, 0.75f);
+            // Fears (Afraid) - Avoids being anywhere near the creature
+            SecretCreatura.Fears(MoreSlugcatsEnums.CreatureTemplateType.Yeek, 0.6f);
+            SecretCreatura.Fears(MoreSlugcatsEnums.CreatureTemplateType.MirosVulture, 0.5f);
 
-        // IntimidatedBy (StayOutOfWay) - Runs away if the creature gets too close
-        SecretCreatura.IntimidatedBy(MoreSlugcatsEnums.CreatureTemplateType.Inspector, 0.8f);
-        SecretCreatura.IntimidatedBy(MoreSlugcatsEnums.CreatureTemplateType.BigJelly, 0.7f);
-        SecretCreatura.IntimidatedBy(MoreSlugcatsEnums.CreatureTemplateType.FireBug, 0.5f);
-
-        // Fears (Afraid) - Avoids being anywhere near the creature
-        SecretCreatura.Fears(MoreSlugcatsEnums.CreatureTemplateType.Yeek, 0.6f);
-        SecretCreatura.Fears(MoreSlugcatsEnums.CreatureTemplateType.MirosVulture, 0.5f);
-
-        // Rivals (AggressiveRival) - Curls up into a ball and rolls towards the target to bludgeon them
-        SecretCreatura.Rivals(MoreSlugcatsEnums.CreatureTemplateType.TrainLizard, 1);
-        SecretCreatura.Rivals(MoreSlugcatsEnums.CreatureTemplateType.SpitLizard, 0.8f);
-
-        //----------------------------------------
-
-        SecretCreatura.EatenBy(MoreSlugcatsEnums.CreatureTemplateType.MotherSpider, 0.7f);
-        SecretCreatura.EatenBy(MoreSlugcatsEnums.CreatureTemplateType.MirosVulture, 0.6f);
-
-        SecretCreatura.FearedBy(MoreSlugcatsEnums.CreatureTemplateType.ZoopLizard, 0.5f);
-
-        SecretCreatura.AntagonizedBy(MoreSlugcatsEnums.CreatureTemplateType.FireBug, 0.5f);
-
-    }
-    public void ModdedRelationships(Relationships SecretCreatura)
-    {
-        if (MachineConnector.IsThisModActive("theincandescent"))
-        {
-            SecretCreatura.HasDynamicRelationship(SCEnums.ModdedCreatureTypes.SnowcuttleTemplate, 0.05f); // Attacks by default; eats once Snowcuttle's armor is broken
-
-            SecretCreatura.Attacks(SCEnums.ModdedCreatureTypes.Raven, 1);
-
-            SecretCreatura.Rivals(SCEnums.ModdedCreatureTypes.IcyBlueLizard, 1);
-            SecretCreatura.Rivals(SCEnums.ModdedCreatureTypes.FreezerLizard, 1);
-            SecretCreatura.Rivals(SCEnums.ModdedCreatureTypes.GorditoGreenieLizard, 1);
-            SecretCreatura.Rivals(SCEnums.ModdedCreatureTypes.Chillipede, 1);
-
-            SecretCreatura.Fears(SCEnums.ModdedCreatureTypes.Cyanwing, 1);
+            // Rivals (AggressiveRival) - Curls up into a ball and rolls towards the target to bludgeon them
+            SecretCreatura.Rivals(MoreSlugcatsEnums.CreatureTemplateType.TrainLizard, 1);
+            SecretCreatura.Rivals(MoreSlugcatsEnums.CreatureTemplateType.SpitLizard, 0.8f);
 
             //----------------------------------------
 
-            SecretCreatura.EatenBy(SCEnums.ModdedCreatureTypes.Cyanwing, 1);
-            SecretCreatura.EatenBy(SCEnums.ModdedCreatureTypes.Chillipede, 1);
+            SecretCreatura.EatenBy(MoreSlugcatsEnums.CreatureTemplateType.MotherSpider, 0.7f);
+            SecretCreatura.EatenBy(MoreSlugcatsEnums.CreatureTemplateType.MirosVulture, 0.6f);
+
+            SecretCreatura.FearedBy(MoreSlugcatsEnums.CreatureTemplateType.ZoopLizard, 0.5f);
+
+            SecretCreatura.AntagonizedBy(MoreSlugcatsEnums.CreatureTemplateType.FireBug, 0.5f);
+        }
+
+        if (MachineConnector.IsThisModActive("theincandescent"))
+        {
+            SecretCreatura.HasDynamicRelationship(HSEnums.CreatureType.SnowcuttleTemplate, 0.05f); // Attacks by default; eats once Snowcuttle's armor is broken
+
+            SecretCreatura.Attacks(HSEnums.CreatureType.Raven, 1);
+
+            SecretCreatura.Rivals(HSEnums.CreatureType.IcyBlueLizard, 1);
+            SecretCreatura.Rivals(HSEnums.CreatureType.FreezerLizard, 1);
+            SecretCreatura.Rivals(HSEnums.CreatureType.GorditoGreenieLizard, 1);
+            SecretCreatura.Rivals(HSEnums.CreatureType.Chillipede, 1);
+
+            SecretCreatura.Fears(HSEnums.CreatureType.Cyanwing, 1);
+
+            SecretCreatura.EatenBy(HSEnums.CreatureType.Cyanwing, 1);
+            SecretCreatura.EatenBy(HSEnums.CreatureType.Chillipede, 1);
         }
 
         if (MachineConnector.IsThisModActive("drainmites"))
         {
-            SecretCreatura.Eats(SCEnums.ModdedCreatureTypes.DrainMite, 0.5f);
 
-            //----------------------------------------
+            SecretCreatura.Eats(DMEnums.TemplateType.DrainMite, 0.5f);
 
-            SecretCreatura.FearedBy(SCEnums.ModdedCreatureTypes.DrainMite, 0.5f);
+            SecretCreatura.FearedBy(DMEnums.TemplateType.DrainMite, 0.5f);
         }
-    }
 
+    }
     public override Creature CreateRealizedCreature(AbstractCreature absSC) => new SecretCreatura(absSC, absSC.world);
     public override ArtificialIntelligence CreateRealizedAI(AbstractCreature absSC) => new SecretCreaturaAI(absSC, absSC.world);
     //public override AbstractCreatureAI CreateAbstractAI(AbstractCreature absSC) => new SecretCreaturaAbstractAI(absSC.world, absSC);
     public override CreatureState CreateState(AbstractCreature absSC) => new SecretCreaturaState(absSC);
-
-    #nullable enable
-    public override CreatureTemplate.Type? ArenaFallback() => CreatureTemplate.Type.Centipede;
-    #nullable disable
+    public override CreatureTemplate.Type ArenaFallback() => CreatureTemplate.Type.Centipede;
 }
-
-//----------------------------------------------------------------------------------

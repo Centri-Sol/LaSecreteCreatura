@@ -194,76 +194,67 @@ public class SecreterCreaturaCritob : Critob
 
         if (ModManager.MSC)
         {
-            MSCRelationships(SecreterCreatura);
-        }
+            // Eats - Grabs the target and eats them right them and there
+            // None in MSC
 
-        ModdedRelationships(SecreterCreatura);
+            // Attacks - Grabs the target and curls up around them to crush them
+            // None in MSC
 
-    }
-    public void MSCRelationships(Relationships SecreterCreatura)
-    {
-        // Eats - Grabs the target and eats them right them and there
-        // None in MSC
+            // UncomfortableAround (Uncomfortable) - Becomes a bit more antsy around the creature, moving around more
+            // None in MSC
 
-        // Attacks - Grabs the target and curls up around them to crush them
-        // None in MSC
+            // IntimidatedBy (StayOutOfWay) - Runs away if the creature gets too close
+            SecreterCreatura.IntimidatedBy(MoreSlugcatsEnums.CreatureTemplateType.Inspector, 1);
+            SecreterCreatura.IntimidatedBy(MoreSlugcatsEnums.CreatureTemplateType.FireBug, 1);
 
-        // UncomfortableAround (Uncomfortable) - Becomes a bit more antsy around the creature, moving around more
-        // None in MSC
+            // Fears (Afraid) - Avoids being anywhere near the creature
+            SecreterCreatura.Fears(MoreSlugcatsEnums.CreatureTemplateType.EelLizard, 1);
+            SecreterCreatura.Fears(MoreSlugcatsEnums.CreatureTemplateType.Yeek, 1);
+            SecreterCreatura.Fears(MoreSlugcatsEnums.CreatureTemplateType.FireBug, 1);
+            SecreterCreatura.Fears(MoreSlugcatsEnums.CreatureTemplateType.ZoopLizard, 0.9f);
 
-        // IntimidatedBy (StayOutOfWay) - Runs away if the creature gets too close
-        SecreterCreatura.IntimidatedBy(MoreSlugcatsEnums.CreatureTemplateType.Inspector, 1);
-        SecreterCreatura.IntimidatedBy(MoreSlugcatsEnums.CreatureTemplateType.FireBug, 1);
+            // Rivals (AggressiveRival) - Curls up into a ball and rolls towards the target to bludgeon them
+            // None in MSC
 
-        // Fears (Afraid) - Avoids being anywhere near the creature
-        SecreterCreatura.Fears(MoreSlugcatsEnums.CreatureTemplateType.EelLizard, 1);
-        SecreterCreatura.Fears(MoreSlugcatsEnums.CreatureTemplateType.Yeek, 1);
-        SecreterCreatura.Fears(MoreSlugcatsEnums.CreatureTemplateType.FireBug, 1);
-        SecreterCreatura.Fears(MoreSlugcatsEnums.CreatureTemplateType.ZoopLizard, 0.9f);
-
-        // Rivals (AggressiveRival) - Curls up into a ball and rolls towards the target to bludgeon them
-        // None in MSC
-
-        // Antagonizes - Combines Attacks and Rivals behaviors
-        // None in MSC
-
-        //----------------------------------------
-
-        SecreterCreatura.EatenBy(MoreSlugcatsEnums.CreatureTemplateType.EelLizard, 0.85f);
-        SecreterCreatura.EatenBy(MoreSlugcatsEnums.CreatureTemplateType.ZoopLizard, 0.7f);
-        SecreterCreatura.EatenBy(MoreSlugcatsEnums.CreatureTemplateType.FireBug, 0.25f);
-
-    }
-    public void ModdedRelationships(Relationships SecreterCreatura)
-    {
-        if (MachineConnector.IsThisModActive("theincandescent"))
-        {
-            SecreterCreatura.Fears(SCEnums.ModdedCreatureTypes.Raven, 1);
-            SecreterCreatura.Fears(SCEnums.ModdedCreatureTypes.IcyBlueLizard, 1);
-            SecreterCreatura.Fears(SCEnums.ModdedCreatureTypes.FreezerLizard, 1);
-            SecreterCreatura.Fears(SCEnums.ModdedCreatureTypes.Chillipede, 1);
-            SecreterCreatura.Fears(SCEnums.ModdedCreatureTypes.Cyanwing, 1);
-            SecreterCreatura.Fears(SCEnums.ModdedCreatureTypes.GorditoGreenieLizard, 0.9f);
-
-            SecreterCreatura.Rivals(SCEnums.ModdedCreatureTypes.SnowcuttleTemplate, 0.7f);
-            SecreterCreatura.Rivals(SCEnums.ModdedCreatureTypes.SnowcuttleFemale, 0.9f);
-
-            SecreterCreatura.Antagonizes(SCEnums.ModdedCreatureTypes.PeachSpider, 0.7f);
+            // Antagonizes - Combines Attacks and Rivals behaviors
+            // None in MSC
 
             //----------------------------------------
 
-            SecreterCreatura.EatenBy(SCEnums.ModdedCreatureTypes.IcyBlueLizard, 1);
-            SecreterCreatura.EatenBy(SCEnums.ModdedCreatureTypes.FreezerLizard, 1);
-            SecreterCreatura.EatenBy(SCEnums.ModdedCreatureTypes.Cyanwing, 1);
-            SecreterCreatura.EatenBy(SCEnums.ModdedCreatureTypes.Chillipede, 1);
-            SecreterCreatura.EatenBy(SCEnums.ModdedCreatureTypes.Raven, 0.45f);
-            SecreterCreatura.EatenBy(SCEnums.ModdedCreatureTypes.PeachSpider, 0.3f);
+            SecreterCreatura.EatenBy(MoreSlugcatsEnums.CreatureTemplateType.EelLizard, 0.85f);
+            SecreterCreatura.EatenBy(MoreSlugcatsEnums.CreatureTemplateType.ZoopLizard, 0.7f);
+            SecreterCreatura.EatenBy(MoreSlugcatsEnums.CreatureTemplateType.FireBug, 0.25f);
+        }
+
+        if (MachineConnector.IsThisModActive("theincandescent"))
+        {
+            SecreterCreatura.Fears(HSEnums.CreatureType.Raven, 1);
+            SecreterCreatura.Fears(HSEnums.CreatureType.IcyBlueLizard, 1);
+            SecreterCreatura.Fears(HSEnums.CreatureType.FreezerLizard, 1);
+            SecreterCreatura.Fears(HSEnums.CreatureType.Chillipede, 1);
+            SecreterCreatura.Fears(HSEnums.CreatureType.Cyanwing, 1);
+            SecreterCreatura.Fears(HSEnums.CreatureType.GorditoGreenieLizard, 0.9f);
+
+            SecreterCreatura.Rivals(HSEnums.CreatureType.SnowcuttleTemplate, 0.7f);
+            SecreterCreatura.Rivals(HSEnums.CreatureType.SnowcuttleFemale, 0.9f);
+
+            SecreterCreatura.Antagonizes(HSEnums.CreatureType.PeachSpider, 0.7f);
+
+            //----------------------------------------
+
+            SecreterCreatura.EatenBy(HSEnums.CreatureType.IcyBlueLizard, 1);
+            SecreterCreatura.EatenBy(HSEnums.CreatureType.FreezerLizard, 1);
+            SecreterCreatura.EatenBy(HSEnums.CreatureType.Cyanwing, 1);
+            SecreterCreatura.EatenBy(HSEnums.CreatureType.Chillipede, 1);
+            SecreterCreatura.EatenBy(HSEnums.CreatureType.Raven, 0.45f);
+            SecreterCreatura.EatenBy(HSEnums.CreatureType.PeachSpider, 0.3f);
         }
 
         if (MachineConnector.IsThisModActive("drainmites"))
         {
-            SecreterCreatura.UncomfortableAround(SCEnums.ModdedCreatureTypes.DrainMite, 0.5f);
+            SecreterCreatura.UncomfortableAround(DMEnums.TemplateType.DrainMite, 0.5f);
         }
+
     }
 
     public override Creature CreateRealizedCreature(AbstractCreature absSC) => new SecreterCreatura(absSC, absSC.world);
@@ -271,9 +262,5 @@ public class SecreterCreaturaCritob : Critob
     //public override AbstractCreatureAI CreateAbstractAI(AbstractCreature absSC) => new SecretCreaturaAbstractAI(absSC.world, absSC);
     public override CreatureState CreateState(AbstractCreature absSC) => new SecretCreaturaState(absSC);
 
-    #nullable enable
-    public override CreatureTemplate.Type? ArenaFallback() => SCEnums.CreaturaTypes.SecretCreatura;
-    #nullable disable
+    public override CreatureTemplate.Type ArenaFallback() => SCEnums.CreaturaTypes.SecretCreatura;
 }
-
-//----------------------------------------------------------------------------------

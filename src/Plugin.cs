@@ -1,9 +1,8 @@
 ﻿namespace SecretCreaturas;
 
+[BepInDependency("theincandescent", BepInDependency.DependencyFlags.SoftDependency)]
+[BepInDependency("drainmites", BepInDependency.DependencyFlags.SoftDependency)]
 [BepInPlugin(MOD_ID, "Secret Creaturas", "1.0.0")]
-
-//--------------------------------------------------------------------------------
-
 public class Plugin : BaseUnityPlugin
 {
     private const string MOD_ID = "bry.secret-creaturas";
@@ -12,13 +11,17 @@ public class Plugin : BaseUnityPlugin
 
     public void OnEnable()
     {
+        SCEnums.Init();
+
+        Content.Register(
+            new SecretCreaturaCritob(),
+            new SecreterCreaturaCritob());
+
         On.RainWorld.OnModsInit += InitiateSecretCreaturas;
         On.RainWorld.PostModsInit += ReorderUnlocks;
         On.RainWorld.OnModsDisabled += DisableCheck;
         On.RainWorld.UnloadResources += UnloadSprites;
     }
-
-    // - - - - - - - - - - - - - - - - - - - - - -
 
     public void InitiateSecretCreaturas(On.RainWorld.orig_OnModsInit orig, RainWorld rw)
     {
@@ -43,17 +46,13 @@ public class Plugin : BaseUnityPlugin
             Debug.LogException(ex);
             throw;
         }
-
-        Content.Register(
-            new SecretCreaturaCritob(),
-            new SecreterCreaturaCritob());
     }
     public void ReorderUnlocks(On.RainWorld.orig_PostModsInit orig, RainWorld rw)
     {
         orig(rw);
         OrganizeUnlocks(MultiplayerUnlocks.SandboxUnlockID.JetFish, SCEnums.CreaturaUnlocks.SecreterCreatura);
         OrganizeUnlocks(SCEnums.CreaturaUnlocks.SecreterCreatura, SCEnums.CreaturaUnlocks.SecretCreatura);
-        OrganizeUnlocks(SCEnums.CreaturaUnlocks.SecretCreatura, SCEnums.CreaturaUnlocks.SecretestCreatura);
+        //OrganizeUnlocks(SCEnums.CreaturaUnlocks.SecretCreatura, SCEnums.CreaturaUnlocks.SecretestCreatura);
     }
     public void DisableCheck(On.RainWorld.orig_OnModsDisabled orig, RainWorld rw, ModManager.Mod[] newlyDisabledMods)
     {
@@ -62,13 +61,6 @@ public class Plugin : BaseUnityPlugin
         {
             if (newlyDisabledMods[i].id == MOD_ID)
             {
-                foreach (MultiplayerUnlocks.SandboxUnlockID unlock in SCEnums.CreaturaUnlocks.CreaturaUnlocksList)
-                {
-                    if (MultiplayerUnlocks.CreatureUnlockList.Contains(unlock))
-                    {
-                        MultiplayerUnlocks.CreatureUnlockList.Remove(unlock);
-                    }
-                }
                 SCEnums.Unregister();
                 break;
             }
@@ -83,8 +75,6 @@ public class Plugin : BaseUnityPlugin
         }
     }
 
-    // - - - - - - - - - - - - - - - - - - - - - -
-
     public void OrganizeUnlocks(MultiplayerUnlocks.SandboxUnlockID moveToBeforeThis, MultiplayerUnlocks.SandboxUnlockID unlockToMove)
     {
         if (MultiplayerUnlocks.CreatureUnlockList.Contains(unlockToMove) &&
@@ -94,8 +84,6 @@ public class Plugin : BaseUnityPlugin
             MultiplayerUnlocks.CreatureUnlockList.Insert(MultiplayerUnlocks.CreatureUnlockList.IndexOf(moveToBeforeThis), unlockToMove);
         }
     }
-
-    // - - - - - - - - - - - - - - - - - - - - - -
 
     public static bool SecretCreaturaStillnessBasedVision(On.ArtificialIntelligence.orig_VisualContact_BodyChunk orig, ArtificialIntelligence ai, BodyChunk chunk)
     {
@@ -117,5 +105,3 @@ public class Plugin : BaseUnityPlugin
     }
 
 }
-
-//--------------------------------------------------------------------------------
