@@ -8,9 +8,11 @@ public class SecretCreaturaGraphics : GraphicsModule
     public virtual int TubeSprite => 0;
     public virtual int FirstSegmentSprite => TubeSprite + 1;
     public virtual int FirstShellSprite => FirstSegmentSprite + SegmentCount;
+
     public virtual int FirstSpikeSprite => FirstShellSprite + SegmentCount * ShellSpriteLayers;
     public virtual int FirstLegSprite => FirstSpikeSprite + spikes * SpikeSpriteLayers;
-    public virtual int FirstSecondarySegmentSprite => FirstLegSprite + legs.Length;
+    public virtual int FirstSecondarySegmentSprite => FirstLegSprite + legs.Length * LegSpriteLayers;
+
     public virtual int FirstAntennaSprite => FirstSecondarySegmentSprite + SecondarySegmentCount;
     public virtual int TotalSprites => FirstAntennaSprite + antennae.Length;
 
@@ -112,7 +114,15 @@ public class SecretCreaturaGraphics : GraphicsModule
         LegsUpdate();
 
         WhiskersUpdate();
+
+        lastCulled = culled;
+        culled = ShouldBeCulled;
+        if (!culled && lastCulled)
+        {
+            Reset();
+        }
     }
+
     public virtual void SoundloopUpdate()
     {
         soundLoop.Update();
@@ -310,9 +320,11 @@ public class SecretCreaturaGraphics : GraphicsModule
 
         for (int s = 0; s < SegmentCount; s++)
         {
-            sLeaser.sprites[FirstSegmentSprite + s] = new FSprite("CentipedeSegment");
-            sLeaser.sprites[FirstSegmentSprite + s].scaleY = Creatura.bodyChunks[s].rad * 1.8f * (1/12f);
-
+            sLeaser.sprites[FirstSegmentSprite + s] = new FSprite("CentipedeSegment")
+            {
+                scaleY = Creatura.bodyChunks[s].rad * 1.8f * (1 / 12f)
+            };
+            
             for (int l = 0; l < ShellSpriteLayers; l++)
             {
                 sLeaser.sprites[ShellSprite(s, l)] = new FSprite("pixel");
@@ -363,10 +375,9 @@ public class SecretCreaturaGraphics : GraphicsModule
     public override void AddToContainer(RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, FContainer newContatiner)
     {
         sLeaser.RemoveAllSpritesFromContainer();
-        if (newContatiner is null)
-        {
-            newContatiner = rCam.ReturnFContainer("Midground");
-        }
+
+        newContatiner ??= rCam.ReturnFContainer("Midground");
+
         for (int i = 0; i < sLeaser.sprites.Length; i++)
         {
             newContatiner.AddChild(sLeaser.sprites[i]);
@@ -547,7 +558,7 @@ public class SecretCreaturaGraphics : GraphicsModule
 
         Vector2 head = Vector2.Lerp(Creatura.Head.lastPos, Creatura.Head.pos, timeStacker);
         Vector2 dirToHead = Custom.DirVec(Vector2.Lerp(Creatura.bodyChunks[1].lastPos, Creatura.bodyChunks[1].pos, timeStacker), head);
-        for (int a = FirstAntennaSprite; a < FirstAntennaSprite + antennae.Length; a++)
+        for (int a = 0 ; a < FirstAntennaSprite + antennae.Length; a++)
         {
             Vector2 antennaEndPos = Vector2.Lerp(antennae[a].lastPos, antennae[a].pos, timeStacker);
             HeadPos = head;

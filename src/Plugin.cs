@@ -1,4 +1,7 @@
-﻿namespace SecretCreaturas;
+﻿using System.IO;
+using System.Linq;
+
+namespace SecretCreaturas;
 
 [BepInDependency("theincandescent", BepInDependency.DependencyFlags.SoftDependency)]
 [BepInDependency("drainmites", BepInDependency.DependencyFlags.SoftDependency)]
@@ -9,8 +12,17 @@ public class Plugin : BaseUnityPlugin
 
     public bool IsInit;
 
+    public static void DebugWarning(object ex) => Logger.LogWarning(ex);
+
+    public static void DebugError(object ex) => Logger.LogError(ex);
+
+    public static void DebugLog(object ex) => Logger.LogDebug(ex);
+
+    public static new ManualLogSource Logger;
+
     public void OnEnable()
     {
+        Logger = base.Logger;
         SCEnums.Init();
 
         HookTests.Init(); 
@@ -34,7 +46,7 @@ public class Plugin : BaseUnityPlugin
             if (IsInit) return;
             IsInit = true;
 
-            Futile.atlasManager.LoadAtlas("atlases/Kill_Icons");
+            LoadAtlases();
 
             On.ArtificialIntelligence.VisualContact_BodyChunk += SecretCreaturaStillnessBasedVision;
 
@@ -49,6 +61,24 @@ public class Plugin : BaseUnityPlugin
             throw;
         }
     }
+
+    private void LoadAtlases()
+    {
+        foreach (var file in from file in AssetManager.ListDirectory("sc_atlases")
+                             where Path.GetExtension(file).Equals(".png")
+                             select file)
+        {
+            if (File.Exists(Path.ChangeExtension(file, ".txt")))
+            {
+                Futile.atlasManager.LoadAtlas(Path.ChangeExtension(file, null));
+            }
+            else
+            {
+                Futile.atlasManager.LoadImage(Path.ChangeExtension(file, null));
+            }
+        }
+    }
+
     public void ReorderUnlocks(On.RainWorld.orig_PostModsInit orig, RainWorld rw)
     {
         orig(rw);

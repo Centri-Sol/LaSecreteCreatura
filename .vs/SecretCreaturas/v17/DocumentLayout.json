@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\secretcreatura\\hooktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\secretcreatura\\hooktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\secretcreatura\\secretcreaturagraphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\secretcreatura\\secretcreaturagraphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\secretcreaturaenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,16 +15,16 @@
       "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\secretcreatura\\hooktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\secretcreatura\\hooktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\secretcreatura\\secretcreaturastate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\secretcreatura\\secretcreaturastate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\secretcreatura\\secretcreaturagraphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|solutionrelative:src\\secretcreatura\\secretcreaturagraphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8AF8B79-0A9F-435F-BC0C-FDA563ECCDB9}|src\\SecretCreaturas.csproj|c:\\users\\marmol salazar\\documents\\github\\lasecretecreatura\\src\\critobs\\secretcreaturacritob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Plugin.cs",
+              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\Plugin.cs",
+              "RelativeDocumentMoniker": "src\\Plugin.cs",
+              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\Plugin.cs",
+              "RelativeToolTip": "src\\Plugin.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAwwBAAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T03:29:27.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SecretCreaturaState.cs",
               "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\SecretCreaturaState.cs",
               "RelativeDocumentMoniker": "src\\SecretCreatura\\SecretCreaturaState.cs",
@@ -50,18 +63,17 @@
               "RelativeToolTip": "src\\SecretCreatura\\SecretCreaturaState.cs",
               "ViewState": "AQIAAFoAAAAAAAAAAAAAABcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T03:31:39.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-21T03:31:39.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "SecretCreaturaGraphics.cs",
               "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\SecretCreaturaGraphics.cs",
               "RelativeDocumentMoniker": "src\\SecretCreatura\\SecretCreaturaGraphics.cs",
               "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\SecretCreaturaGraphics.cs",
               "RelativeToolTip": "src\\SecretCreatura\\SecretCreaturaGraphics.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAC8CAAAAAAAAAAAAAD0CAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-21T03:31:38.804Z",
               "EditorCaption": ""
@@ -81,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Globals.cs",
               "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\Globals.cs",
               "RelativeDocumentMoniker": "src\\Globals.cs",
@@ -89,31 +101,17 @@
               "RelativeToolTip": "src\\Globals.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T03:31:31.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-21T03:31:31.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Plugin.cs",
-              "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\Plugin.cs",
-              "RelativeDocumentMoniker": "src\\Plugin.cs",
-              "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\Plugin.cs",
-              "RelativeToolTip": "src\\Plugin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T03:29:27.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "HookTests.cs",
               "DocumentMoniker": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\HookTests.cs",
               "RelativeDocumentMoniker": "src\\SecretCreatura\\HookTests.cs",
               "ToolTip": "C:\\Users\\Marmol Salazar\\Documents\\GitHub\\LaSecreteCreatura\\src\\SecretCreatura\\HookTests.cs",
               "RelativeToolTip": "src\\SecretCreatura\\HookTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-21T02:46:02.598Z",
               "EditorCaption": ""
@@ -128,8 +126,7 @@
               "RelativeToolTip": "src\\Critobs\\SecretCreaturaCritob.cs",
               "ViewState": "AQIAAMIAAAAAAAAAAAAAAOcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T02:25:16.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T02:25:16.681Z"
             }
           ]
         }

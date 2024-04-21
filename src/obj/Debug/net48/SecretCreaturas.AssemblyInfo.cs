@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SecretCreaturas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d8732776f5fa02843be3bac8c3337dc75553442")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69bb6c580541ed5479208b129f8a7e8aa435a90c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SecretCreaturas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SecretCreaturas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
