@@ -13,6 +13,8 @@ public class Plugin : BaseUnityPlugin
     {
         SCEnums.Init();
 
+        HookTests.Init(); 
+
         Content.Register(
             new SecretCreaturaCritob(),
             new SecreterCreaturaCritob());

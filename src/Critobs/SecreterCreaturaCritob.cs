@@ -226,35 +226,6 @@ public class SecreterCreaturaCritob : Critob
             SecreterCreatura.EatenBy(MoreSlugcatsEnums.CreatureTemplateType.FireBug, 0.25f);
         }
 
-        if (MachineConnector.IsThisModActive("theincandescent"))
-        {
-            SecreterCreatura.Fears(HSEnums.CreatureType.Raven, 1);
-            SecreterCreatura.Fears(HSEnums.CreatureType.IcyBlueLizard, 1);
-            SecreterCreatura.Fears(HSEnums.CreatureType.FreezerLizard, 1);
-            SecreterCreatura.Fears(HSEnums.CreatureType.Chillipede, 1);
-            SecreterCreatura.Fears(HSEnums.CreatureType.Cyanwing, 1);
-            SecreterCreatura.Fears(HSEnums.CreatureType.GorditoGreenieLizard, 0.9f);
-
-            SecreterCreatura.Rivals(HSEnums.CreatureType.SnowcuttleTemplate, 0.7f);
-            SecreterCreatura.Rivals(HSEnums.CreatureType.SnowcuttleFemale, 0.9f);
-
-            SecreterCreatura.Antagonizes(HSEnums.CreatureType.PeachSpider, 0.7f);
-
-            //----------------------------------------
-
-            SecreterCreatura.EatenBy(HSEnums.CreatureType.IcyBlueLizard, 1);
-            SecreterCreatura.EatenBy(HSEnums.CreatureType.FreezerLizard, 1);
-            SecreterCreatura.EatenBy(HSEnums.CreatureType.Cyanwing, 1);
-            SecreterCreatura.EatenBy(HSEnums.CreatureType.Chillipede, 1);
-            SecreterCreatura.EatenBy(HSEnums.CreatureType.Raven, 0.45f);
-            SecreterCreatura.EatenBy(HSEnums.CreatureType.PeachSpider, 0.3f);
-        }
-
-        if (MachineConnector.IsThisModActive("drainmites"))
-        {
-            SecreterCreatura.UncomfortableAround(DMEnums.TemplateType.DrainMite, 0.5f);
-        }
-
     }
 
     public override Creature CreateRealizedCreature(AbstractCreature absSC) => new SecreterCreatura(absSC, absSC.world);

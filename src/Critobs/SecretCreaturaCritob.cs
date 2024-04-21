@@ -231,31 +231,6 @@ public class SecretCreaturaCritob : Critob
             SecretCreatura.AntagonizedBy(MoreSlugcatsEnums.CreatureTemplateType.FireBug, 0.5f);
         }
 
-        if (MachineConnector.IsThisModActive("theincandescent"))
-        {
-            SecretCreatura.HasDynamicRelationship(HSEnums.CreatureType.SnowcuttleTemplate, 0.05f); // Attacks by default; eats once Snowcuttle's armor is broken
-
-            SecretCreatura.Attacks(HSEnums.CreatureType.Raven, 1);
-
-            SecretCreatura.Rivals(HSEnums.CreatureType.IcyBlueLizard, 1);
-            SecretCreatura.Rivals(HSEnums.CreatureType.FreezerLizard, 1);
-            SecretCreatura.Rivals(HSEnums.CreatureType.GorditoGreenieLizard, 1);
-            SecretCreatura.Rivals(HSEnums.CreatureType.Chillipede, 1);
-
-            SecretCreatura.Fears(HSEnums.CreatureType.Cyanwing, 1);
-
-            SecretCreatura.EatenBy(HSEnums.CreatureType.Cyanwing, 1);
-            SecretCreatura.EatenBy(HSEnums.CreatureType.Chillipede, 1);
-        }
-
-        if (MachineConnector.IsThisModActive("drainmites"))
-        {
-
-            SecretCreatura.Eats(DMEnums.TemplateType.DrainMite, 0.5f);
-
-            SecretCreatura.FearedBy(DMEnums.TemplateType.DrainMite, 0.5f);
-        }
-
     }
     public override Creature CreateRealizedCreature(AbstractCreature absSC) => new SecretCreatura(absSC, absSC.world);
     public override ArtificialIntelligence CreateRealizedAI(AbstractCreature absSC) => new SecretCreaturaAI(absSC, absSC.world);

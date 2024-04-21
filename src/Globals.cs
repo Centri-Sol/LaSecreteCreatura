@@ -17,3 +17,7 @@ global using Fisobs.Sandbox;
 
 global using Hailstorm;
 global using DrainMites;
+using System.Security.Permissions;
+
+#pragma warning disable CS0618 // Type or member is obsolete
+[assembly: SecurityPermission(SecurityAction.RequestMinimum, SkipVerification = true)]
